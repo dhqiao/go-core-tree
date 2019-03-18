@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-var upgrader = websocket.Upgrader{} // use default options
+var upgrader1 = websocket.Upgrader{} // use default options
 var messageChan = make(chan string)
 
 //此处为服务端接收 需要推送的信息
@@ -23,7 +23,7 @@ func updateMsg() {
 
 //此处为websocket 执行的长连接 函数
 func echo(w http.ResponseWriter, r *http.Request) {
-	c, err := upgrader.Upgrade(w, r, nil)
+	c, err := upgrader1.Upgrade(w, r, nil)
 	if err != nil {
 		log.Print("upgrade:", err)
 		return
