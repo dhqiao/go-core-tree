@@ -16,6 +16,7 @@ var messageChan = make(chan string)
 func updateMsg() {
 	for {
 		var messageBuf string
+		messageBuf = "aaaaaaa"
 		fmt.Scanln(&messageBuf)
 		messageChan <- messageBuf
 	}
