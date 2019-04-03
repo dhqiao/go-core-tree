@@ -4,6 +4,7 @@ import (
 	"github.com/gorilla/websocket"
 	"log"
 	"net/http"
+	"fmt"
 )
 
 var clients = make(map[*websocket.Conn]bool) // connected clients
@@ -41,6 +42,7 @@ func handleConnections(w http.ResponseWriter, r *http.Request) {
 	clients[ws] = true
 	for {
 		var msg Message
+		fmt.Println("---------")
 		// Read in a new message as JSON and map it to a Message object
 		err := ws.ReadJSON(&msg)
 		if err != nil {
@@ -54,8 +56,10 @@ func handleConnections(w http.ResponseWriter, r *http.Request) {
 }
 func handleMessages() {
 	for {
+		fmt.Println("===========")
 		// Grab the next message from the broadcast channel
 		msg := <-broadcast
+		msg.Message = msg.Message + "aaaa"
 		// Send it out to every client that is currently connected
 		for client := range clients {
 			err := client.WriteJSON(msg)

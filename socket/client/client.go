@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
+	"fmt"
 )
 
 var addr = flag.String("addr", "localhost:1234", "http service address")
@@ -24,18 +25,19 @@ func main() {
 	u := url.URL{Scheme: "ws", Host: *addr, Path: "/ws"}
 	log.Printf("connecting to %s", u.String())
 
-	c, _, err := websocket.DefaultDialer.Dial(u.String(), nil)
+	conn, _, err := websocket.DefaultDialer.Dial(u.String(), nil)
 	if err != nil {
 		log.Fatal("dial:", err)
 	}
-	defer c.Close()
+	defer conn.Close()
 
 	done := make(chan struct{})
 
 	go func() {
+		fmt.Println("-----------")
 		defer close(done)
 		for {
-			_, message, err := c.ReadMessage()
+			_, message, err := conn.ReadMessage()
 			if err != nil {
 				log.Println("read:", err)
 				return
@@ -44,17 +46,21 @@ func main() {
 		}
 	}()
 
-	ticker := time.NewTicker(time.Second)
+	ticker := time.NewTicker(time.Second * 2)
 	defer ticker.Stop()
 
+	i := 1
 	for {
 		select {
 		case <-done:
 			return
-		case t := <-ticker.C:
-			messeag := Message{t.String()}
-			messageJson, _ := json.Marshal(messeag)
-			err := c.WriteMessage(websocket.TextMessage, messageJson)
+		//case t := <-ticker.C:
+		case <-ticker.C:
+			//messeag := Message{t.String()}
+			message := Message{"this is number:" + string(i) + "  ."}
+			fmt.Println(">>>>>>>>>>>>>>>>>>")
+			messageJson, _ := json.Marshal(message)
+			err := conn.WriteMessage(websocket.TextMessage, messageJson)
 			if err != nil {
 				log.Println("write:", err)
 				return
@@ -64,7 +70,7 @@ func main() {
 
 			// Cleanly close the connection by sending a close message and then
 			// waiting (with timeout) for the server to close the connection.
-			err := c.WriteMessage(websocket.CloseMessage, websocket.FormatCloseMessage(websocket.CloseNormalClosure, ""))
+			err := conn.WriteMessage(websocket.CloseMessage, websocket.FormatCloseMessage(websocket.CloseNormalClosure, ""))
 			if err != nil {
 				log.Println("write close:", err)
 				return
