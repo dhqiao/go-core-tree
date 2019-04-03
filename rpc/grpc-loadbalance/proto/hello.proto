@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "pb";
+
+
+service LoadBalanceDemoService {
+    rpc GetServerAddr (Request) returns (Response);
+}
+
+
+message Request {
+}
+
+message Response {
+    string addr = 1;
+}
