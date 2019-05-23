@@ -7,7 +7,6 @@ import (
 	"crypto/x509"
 	"fmt"
 	"io/ioutil"
-	"strings"
 	"sync"
 	"time"
 
