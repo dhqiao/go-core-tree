@@ -1,0 +1,661 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/astaxie/beego",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/config",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/context",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/session",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "dNN6QAzA59qR21AbLcQPe2nBt9E=",
+			"path": "github.com/coreos/etcd/clientv3",
+			"revision": "c38e965a65c29b5576982096ee2e9cec455f7ad8",
+			"revisionTime": "2019-05-22T14:53:50Z"
+		},
+		{
+			"path": "github.com/coreos/etcd/clientv3/naming",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "github.com/coreos/etcd/mvcc/mvccpb",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "go.etcd.io/etcd/vendor/github.com/coreos/go-systemd/journal",
+			"path": "github.com/coreos/go-systemd/journal",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"origin": "go.etcd.io/etcd/vendor/github.com/coreos/pkg/capnslog",
+			"path": "github.com/coreos/pkg/capnslog",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
+			"path": "github.com/gin-gonic/gin",
+			"revision": "220e8d34538f5dfdcc299dda79bf83cf52e633f6",
+			"revisionTime": "2018-07-20T16:52:55Z"
+		},
+		{
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "220e8d34538f5dfdcc299dda79bf83cf52e633f6",
+			"revisionTime": "2018-07-20T16:52:55Z"
+		},
+		{
+			"path": "github.com/gin-gonic/gin/json",
+			"revision": "220e8d34538f5dfdcc299dda79bf83cf52e633f6",
+			"revisionTime": "2018-07-20T16:52:55Z"
+		},
+		{
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "220e8d34538f5dfdcc299dda79bf83cf52e633f6",
+			"revisionTime": "2018-07-20T16:52:55Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/github.com/gogo/protobuf/gogoproto",
+			"path": "github.com/gogo/protobuf/gogoproto",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/github.com/gogo/protobuf/proto",
+			"path": "github.com/gogo/protobuf/proto",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"path": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "github.com/golang/mock/gomock",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample/imp1",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample/imp2",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample/imp3",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample/imp4",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/mock/sample/mock_user",
+			"revision": "c20582278a829e4b3259747a3ce0eceb1763ee13",
+			"revisionTime": "2019-01-16T18:17:31Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "93b26e6a70e37abb14f2f88194949312b0592a84",
+			"revisionTime": "2018-07-24T20:30:48Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/ptypes",
+			"revision": "93b26e6a70e37abb14f2f88194949312b0592a84",
+			"revisionTime": "2018-07-24T20:30:48Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/ptypes/any",
+			"revision": "93b26e6a70e37abb14f2f88194949312b0592a84",
+			"revisionTime": "2018-07-24T20:30:48Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/ptypes/duration",
+			"revision": "93b26e6a70e37abb14f2f88194949312b0592a84",
+			"revisionTime": "2018-07-24T20:30:48Z"
+		},
+		{
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": "93b26e6a70e37abb14f2f88194949312b0592a84",
+			"revisionTime": "2018-07-24T20:30:48Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/github.com/google/uuid",
+			"path": "github.com/google/uuid",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "github.com/gorilla/websocket",
+			"revision": "cdedf21e585dae942951e34d6defc3215b4280fa",
+			"revisionTime": "2017-12-10T03:53:53Z"
+		},
+		{
+			"path": "github.com/jtolds/gls",
+			"revision": "b4936e06046bbecbb94cae9c18127ebe510a2cb9",
+			"revisionTime": "2018-11-10T20:28:10Z"
+		},
+		{
+			"path": "github.com/labstack/gommon/color",
+			"revision": "82ef680aef5189b68682876cf70d09daa4ac0f51",
+			"revisionTime": "2019-01-25T18:56:10Z"
+		},
+		{
+			"path": "github.com/labstack/gommon/log",
+			"revision": "82ef680aef5189b68682876cf70d09daa4ac0f51",
+			"revisionTime": "2019-01-25T18:56:10Z"
+		},
+		{
+			"path": "github.com/mattn/go-colorable",
+			"revision": "6fcc0c1fd9b620311d821b106a400b35dc95c497",
+			"revisionTime": "2017-11-11T06:59:53Z"
+		},
+		{
+			"path": "github.com/mattn/go-isatty",
+			"revision": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c",
+			"revisionTime": "2017-11-07T05:05:31Z"
+		},
+		{
+			"path": "github.com/prashantv/gostub",
+			"revision": "24ed9cdea43de1d52ea20cab2b7a38e7ed6886b3",
+			"revisionTime": "2018-11-09T19:37:01Z"
+		},
+		{
+			"path": "github.com/smartystreets/assertions",
+			"revision": "b6c0e53d73045618965505ac26ff7864fe3ab2b2",
+			"revisionTime": "2019-01-16T19:17:33Z"
+		},
+		{
+			"path": "github.com/smartystreets/assertions/internal/go-render/render",
+			"revision": "b6c0e53d73045618965505ac26ff7864fe3ab2b2",
+			"revisionTime": "2019-01-16T19:17:33Z"
+		},
+		{
+			"path": "github.com/smartystreets/assertions/internal/oglematchers",
+			"revision": "b6c0e53d73045618965505ac26ff7864fe3ab2b2",
+			"revisionTime": "2019-01-16T19:17:33Z"
+		},
+		{
+			"path": "github.com/smartystreets/goconvey/convey",
+			"revision": "044398e4856c3a83fb98f9de0a8ed1c6495e2843",
+			"revisionTime": "2018-11-08T00:35:08Z"
+		},
+		{
+			"path": "github.com/smartystreets/goconvey/convey/gotest",
+			"revision": "044398e4856c3a83fb98f9de0a8ed1c6495e2843",
+			"revisionTime": "2018-11-08T00:35:08Z"
+		},
+		{
+			"path": "github.com/smartystreets/goconvey/convey/reporting",
+			"revision": "044398e4856c3a83fb98f9de0a8ed1c6495e2843",
+			"revisionTime": "2018-11-08T00:35:08Z"
+		},
+		{
+			"path": "github.com/ugorji/go/codec",
+			"revision": "2e1067cd04ec91c6fdf491ac8028c9d3aea73ab4",
+			"revisionTime": "2018-07-12T10:27:45Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/auth/authpb",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/clientv3",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/clientv3/balancer",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/clientv3/balancer/picker",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/clientv3/balancer/resolver/endpoint",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/etcdserver/etcdserverpb",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/mvcc/mvccpb",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/pkg/logutil",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/pkg/types",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/auth/authpb",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/clientv3/balancer",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/clientv3/balancer/picker",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/clientv3/balancer/resolver/endpoint",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/etcdserver/etcdserverpb",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/mvcc/mvccpb",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/pkg/logutil",
+			"revision": ""
+		},
+		{
+			"path": "go.etcd.io/etcd/v3/pkg/types",
+			"revision": ""
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/atomic",
+			"path": "go.uber.org/atomic",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/multierr",
+			"path": "go.uber.org/multierr",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap",
+			"path": "go.uber.org/zap",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap/buffer",
+			"path": "go.uber.org/zap/buffer",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap/internal/bufferpool",
+			"path": "go.uber.org/zap/internal/bufferpool",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap/internal/color",
+			"path": "go.uber.org/zap/internal/color",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap/internal/exit",
+			"path": "go.uber.org/zap/internal/exit",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/go.uber.org/zap/zapcore",
+			"path": "go.uber.org/zap/zapcore",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "golang.org/x/net/context",
+			"revision": "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd",
+			"revisionTime": "2018-07-24T21:44:19Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/net/http/httpguts",
+			"path": "golang.org/x/net/http/httpguts",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "golang.org/x/net/http2",
+			"revision": "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd",
+			"revisionTime": "2018-07-24T21:44:19Z"
+		},
+		{
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd",
+			"revisionTime": "2018-07-24T21:44:19Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/net/idna",
+			"path": "golang.org/x/net/idna",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/net/internal/timeseries",
+			"path": "golang.org/x/net/internal/timeseries",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "golang.org/x/net/trace",
+			"revision": "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd",
+			"revisionTime": "2018-07-24T21:44:19Z"
+		},
+		{
+			"path": "golang.org/x/sys/unix",
+			"revision": "98c5dad5d1a0e8a73845ecc8897d0bd56586511d",
+			"revisionTime": "2018-08-06T14:38:27Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/text/secure/bidirule",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/text/transform",
+			"path": "golang.org/x/text/transform",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/text/unicode/bidi",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/golang.org/x/text/unicode/norm",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "google.golang.org/genproto/googleapis/rpc/status",
+			"revision": "86e600f69ee4704c6efbf6a2a40a5c10700e76c2",
+			"revisionTime": "2018-04-27T14:47:45Z"
+		},
+		{
+			"path": "google.golang.org/grpc",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/balancer",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/balancer/base",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/balancer/roundrobin",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/channelz",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/codes",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/connectivity",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/credentials",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/encoding",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/encoding/proto",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/grpclb/grpc_lb_v1/messages",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/grpclog",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"origin": "go.etcd.io/etcd/vendor/google.golang.org/grpc/health/grpc_health_v1",
+			"path": "google.golang.org/grpc/health/grpc_health_v1",
+			"revision": "71881a423fa58b8a37536e47ce82c8e3da61e9a0",
+			"revisionTime": "2019-05-16T15:06:52Z"
+		},
+		{
+			"path": "google.golang.org/grpc/internal",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/google.golang.org/grpc/internal/backoff",
+			"path": "google.golang.org/grpc/internal/backoff",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/google.golang.org/grpc/internal/channelz",
+			"path": "google.golang.org/grpc/internal/channelz",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/google.golang.org/grpc/internal/envconfig",
+			"path": "google.golang.org/grpc/internal/envconfig",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/google.golang.org/grpc/internal/grpcrand",
+			"path": "google.golang.org/grpc/internal/grpcrand",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"origin": "github.com/coreos/etcd/vendor/google.golang.org/grpc/internal/transport",
+			"path": "google.golang.org/grpc/internal/transport",
+			"revision": "a621d807f061e1dd635033a8d6bc261461429e27",
+			"revisionTime": "2019-04-01T20:57:24Z"
+		},
+		{
+			"path": "google.golang.org/grpc/keepalive",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/metadata",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/naming",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/peer",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/resolver",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/resolver/dns",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/resolver/passthrough",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/stats",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/status",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/tap",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "google.golang.org/grpc/transport",
+			"revision": "a36d2ab501dc713727218bda5f8b11608ab83d33",
+			"revisionTime": "2018-05-08T00:46:58Z"
+		},
+		{
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		},
+		{
+			"path": "grpc-loadbalance/pb",
+			"revision": "56b433fa63f03eb6cac6cee282d05c686a4fe104",
+			"revisionTime": "2019-03-21T05:41:50Z"
+		},
+		{
+			"path": "tool-go/library/test/hellomock/mock",
+			"revision": "88df64e261cc432aefee156c0bac9f2b22638a7b",
+			"revisionTime": "2019-03-07T03:20:18Z"
+		},
+		{
+			"path": "tool-go/library/test/metal/mock_metal",
+			"revision": "88df64e261cc432aefee156c0bac9f2b22638a7b",
+			"revisionTime": "2019-03-07T03:20:18Z"
+		},
+		{
+			"path": "tool-go/library/test/usermock/mock",
+			"revision": "88df64e261cc432aefee156c0bac9f2b22638a7b",
+			"revisionTime": "2019-03-07T03:20:18Z"
+		},
+		{
+			"path": "tool-go/library/test/usermock/person",
+			"revision": "88df64e261cc432aefee156c0bac9f2b22638a7b",
+			"revisionTime": "2019-03-07T03:20:18Z"
+		}
+	],
+	"rootPath": "go-core-tree"
+}

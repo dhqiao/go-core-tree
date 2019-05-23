@@ -142,7 +142,6 @@ func getWinners() error {
 		return err
 	}
 
-
 	for _, ev := range resp.Kvs {
 		fmt.Printf("%s won turing awards for %s\n", ev.Key, ev.Value)
 	}
