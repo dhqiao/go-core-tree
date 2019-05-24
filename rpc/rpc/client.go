@@ -13,7 +13,7 @@ func main() {
 	//远程调用函数（被调用的方法，传入的参数 ，返回的参数）
 	err =cli.Call("Panda1.Getinfo1",123,&val)
 	if err!=nil{
-		beego.Info("打call失败")
+		beego.Info("打call失败。。。")
 	}
 	beego.Info("返回结果",val)
 }
