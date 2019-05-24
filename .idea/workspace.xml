@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="265230e4-a034-41dc-aa8c-6631c1285dc7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/rpc/etcd-demo/etcd.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/etcd-demo/etcd.go" afterDir="false" />
-    </list>
+    <list default="true" id="265230e4-a034-41dc-aa8c-6631c1285dc7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="etcd.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="etcd.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/etcd-demo/etcd.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -21,6 +19,15 @@
               <folding>
                 <element signature="e#15#153#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -97,18 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc/grpc/server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="e#13#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -128,11 +123,11 @@
       <find>round</find>
       <find>slice</find>
       <find>strings</find>
-      <find>watchWinners</find>
       <find>RevokeLease</find>
       <find>Lock</find>
       <find>PutService</find>
       <find>leaseRespChan</find>
+      <find>watchWinners</find>
     </findStrings>
     <dirStrings>
       <dir>C:\code\Go\src\go-core-tree\cgo\hello</dir>
@@ -179,6 +174,7 @@
         <option value="$PROJECT_DIR$/rpc/etcd/discovery.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/rpc/etcd-demo/etcd.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -207,34 +203,6 @@
             <path>
               <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-core-tree" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-core-tree" type="b2602c69:ProjectViewProjectNode" />
@@ -288,8 +256,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\code\Go\src\go-core-tree\vendor\github.com\coreos" />
       <recent name="C:\code\Go\src\go-core-tree" />
+      <recent name="C:\code\Go\src\go-core-tree\vendor\github.com\coreos" />
       <recent name="C:\code\Go\src\go-core-tree\rpc\server_discovery\pb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -428,13 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../google.golang.org/grpc/balancer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="165" column="16" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../google.golang.org/grpc/clientconn.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -784,6 +745,13 @@
           <folding>
             <element signature="e#15#153#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
