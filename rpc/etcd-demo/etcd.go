@@ -17,6 +17,7 @@ const (
 	turingPrefix = "/turing-awards/"
 )
 
+// document: http://etcd.doczh.cn/documentation/dev-guide/interacting_v3.html
 // EtcdConfig stores important fileds to connect to etcd.
 // Mainly endpoints and verification related info
 type EtcdConfig struct {
@@ -369,3 +370,11 @@ func main() {
 		}
 	}
 }
+// some important commands
+// [root@felix ~]# etcdctl lease grant 20
+//lease 6b566a5a05b57fdf granted with TTL(20s)
+//[root@felix ~]# etcdctl put ii aaa --lease=6b566a5a05b57fdf
+//OK
+//[root@felix ~]# etcdctl get ii
+//ii
+//aaa
